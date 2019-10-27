@@ -9,4 +9,60 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.nav-link:hover {
+  text-decoration: underline;
+} 
+
+.jumbotron {
+  background-image: url(../img/pirate-ship.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
+.jumbotron h1 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron p {
+  text-align: center;
+  color: white; 
+}
+
+.col-sm-8 h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.col-sm-4 h4, h6 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.col-sm-4 h6 {
+  font-style: italic;
+}
+
+.col-sm-8 {
+  border-left: solid 1px;
+}
+
+
+.col-sm-4 img {
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: rgb(156, 156, 156); 
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card {
+  margin-top: 50px;
+}
+
 // Import partials here
