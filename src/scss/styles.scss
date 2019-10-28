@@ -14,7 +14,7 @@
 } 
 
 .jumbotron {
-  background-image: url(../img/pirate-ship.jpg);
+  background-image: url(../img/pirate-photos/pirate-ship.jpg);
   background-position: center;
   background-size: cover;
   padding-bottom: 150px;
@@ -22,7 +22,7 @@
 }
 
 .jumbotron h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Liu Jian Mao Cao', cursive;
   text-align: center;
   color: white;
 }
@@ -33,7 +33,7 @@
 }
 
 .col-sm-8 h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Liu Jian Mao Cao', cursive;
 }
 
 .col-sm-4 h4, h6 {
@@ -59,10 +59,6 @@
   color: black;
   text-align: center;
   margin-top: 10px;
-}
-
-.card {
-  margin-top: 50px;
 }
 
 // Import partials here
